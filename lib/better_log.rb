@@ -1,5 +1,8 @@
 require 'better_log/version'
+require 'active_support/core_ext'
 
 module BetterLog
-  # Your code goes here...
+  extend ActiveSupport::Autoload
+
+  autoload :TerminalColor
 end
