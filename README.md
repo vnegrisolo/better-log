@@ -1,12 +1,12 @@
 # BetterLog
 
-TODO: Write a gem description
+Let your text logs look better
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'better_log'
+    gem 'better_log', git: 'https://github.com/vnegrisolo/better_log.git'
 
 And then execute:
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+change the `config/enviroments/development.log` (or other enviroment):
+  config.log_formatter = BetterLog::ColoredLoggerFormatter.new
 
 ## Contributing
 

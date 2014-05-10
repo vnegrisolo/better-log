@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = BetterLog::VERSION
   spec.authors       = ['Vinicius Ferreira Negrisolo']
   spec.email         = ['vinicius.negrisolo@gmail.com']
-  spec.description   = %q{Better Log}
-  spec.summary       = %q{Better Log}
+  spec.description   = %q{Better Log let your text logs look better}
+  spec.summary       = %q{Better Log let your text logs look better}
   spec.homepage      = 'https://github.com/vnegrisolo/better_log.git'
   spec.license       = 'MIT'
 
