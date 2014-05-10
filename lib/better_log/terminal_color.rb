@@ -12,12 +12,6 @@ module BetterLog
       white: 7
     }.freeze
 
-    # put some color to text
-    # params
-    #   text - the text to be colored
-    #   options[:color] - the text color
-    #   options[:bg_color] - the background color
-    # return - the text colorized
     def colorize(text, options = {})
       code = convert(options.fetch(:color, :white), options.fetch(:bg_color, :black))
       "#{begin_color(code)}#{text}#{end_color(code)}"

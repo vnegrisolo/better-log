@@ -21,6 +21,15 @@ Or install it yourself as:
 change the `config/enviroments/development.log` (or other enviroment):
   config.log_formatter = BetterLog::ColoredLoggerFormatter.new
 
+you can also call directly the colorize method
+
+    class YourClass
+      include TerminalColor
+      def initialize
+        puts colorize('my text', color: :cyan, bg_color: :black)
+      end
+    end
+
 ## Contributing
 
 1. Fork it ( http://github.com/vnegrisolo/better_log/fork )
