@@ -18,10 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-change the `config/enviroments/development.log` (or other enviroment):
-  config.log_formatter = BetterLog::ColoredLoggerFormatter.new
+Change the `config/enviroments/development.log` (or any other enviroment):
 
-you can also call directly the colorize method
+    config.log_formatter = BetterLog::ColoredLoggerFormatter.new
+
+You can also call directly the colorize method
 
     class YourClass
       include TerminalColor
