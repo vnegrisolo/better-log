@@ -1,4 +1,4 @@
-require "better_log/version"
+require 'better_log/version'
 
 module BetterLog
   # Your code goes here...
