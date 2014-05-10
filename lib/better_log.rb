@@ -5,4 +5,5 @@ module BetterLog
   extend ActiveSupport::Autoload
 
   autoload :TerminalColor
+  autoload :ColoredLoggerFormatter
 end
