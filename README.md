@@ -6,30 +6,40 @@ Let your text logs look better
 
 Add this line to your application's Gemfile:
 
+```ruby
     gem 'better_log', git: 'https://github.com/vnegrisolo/better_log.git'
+```
 
 And then execute:
 
+```ruby
     $ bundle
+```
 
 Or install it yourself as:
 
+```ruby
     $ gem install better_log
+```
 
 ## Usage
 
 Change the `config/enviroments/development.log` (or any other enviroment):
 
+```ruby
     config.log_formatter = BetterLog::ColoredLoggerFormatter.new
+```
 
 You can also call directly the colorize method
 
+```ruby
     class YourClass
       include TerminalColor
       def initialize
         puts colorize('my text', color: :cyan, bg_color: :black)
       end
     end
+```
 
 ## Contributing
 
