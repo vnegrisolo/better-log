@@ -1,6 +1,6 @@
 # BetterLog
 
-Let your text logs look better
+Let your text logs look better with some color.
 
 ## Installation
 
@@ -35,6 +35,12 @@ class YourClass
     puts colorize('my text', color: :cyan, bg_color: :black)
   end
 end
+```
+
+Supported colors:
+
+```ruby
+:black, :red, :green, :yellow, :blue, :magenta, :cyan, :white
 ```
 
 ## Contributing
