@@ -1,9 +1,6 @@
-require 'better_log/version'
 require 'active_support/core_ext'
+Gem.find_files('better_log/**/*.rb').each { |path| require path }
 
 module BetterLog
-  extend ActiveSupport::Autoload
 
-  autoload :TerminalColor
-  autoload :ColoredLoggerFormatter
 end

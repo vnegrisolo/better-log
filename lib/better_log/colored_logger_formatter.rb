@@ -1,6 +1,8 @@
+require 'better_log/terminal_color'
+
 module BetterLog
   class ColoredLoggerFormatter < ActiveSupport::Logger::SimpleFormatter
-    include TerminalColor
+    include BetterLog::TerminalColor
 
     COLORS = {
       'DEBUG' => {text: :cyan, background: :black},
