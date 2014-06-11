@@ -1,3 +1,7 @@
+# Deprecated
+
+I have stopped to use this approch of colorize the loggers to work with other way to highlight my logs. Now I'm using a simple shell function that put some color to texts using the tail and sed functions. This solution is in my workstation github project.
+
 # BetterLog
 
 Let your text logs look better with some color.
